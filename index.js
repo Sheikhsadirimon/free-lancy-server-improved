@@ -60,7 +60,7 @@ async function run() {
     const acceptedTasksCollection = db.collection("accepted_tasks");
 
     app.get("/Jobs", async (req, res) => {
-      // console.log(req.query);
+    
       const email = req.query.email;
       const query = {};
       if (email) {
