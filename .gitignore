@@ -1,0 +1,4 @@
+node_modules
+.env
+free-lancy-firebase-admin-key.json
+.vercel
